@@ -1,4 +1,17 @@
-<p>
-  navbar works!
-</p>
+<header>
+  <ul>
+    <li>
+      <a href="./library">Library</a>
+    </li>
+    <li>
+      <a href="./shop">Shop</a>
+    </li>
+    <li *ngIf="!isLoggedIn; else loggedOut" class="login">
+      <a href="./login">Login</a>
+    </li>
+    <ng-template class="login" #loggedOut>
+      <span class="login">name_placeholder</span>
+    </ng-template>
+  </ul>
+</header>
 
