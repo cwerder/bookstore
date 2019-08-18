@@ -7,6 +7,9 @@ UI/out-tsc
 
 # dependencies
 /node_modules
+UI/node_modules
+Backend/node_modules
+Backend/.env
 
 # IDEs and editors
 .idea
@@ -16,7 +19,6 @@ UI/out-tsc
 *.launch
 .settings/
 *.sublime-workspace
-UI/node_modules
 
 # IDE - VSCode
 .vscode/*
